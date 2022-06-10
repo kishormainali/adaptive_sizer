@@ -1,5 +1,5 @@
 
-## AdaptiveHelper
+## Adaptive Sizer
 
 Adaptive Size helper created using concept of responsive_sizer and flutter_screen_util package.
 
