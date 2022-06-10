@@ -1,6 +1,7 @@
 name: adaptive_sizer
 description: Adaptive Size helper created using concept of responsive_sizer and flutter_screen_util package.
 version: 0.0.1
+publish_to: 'none'
 homepage: https://github.com/kishor98100/adaptive_sizer
 
 environment:
@@ -10,6 +11,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  
+
 
 dev_dependencies:
   flutter_test:

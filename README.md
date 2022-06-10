@@ -3,26 +3,62 @@
 
 Adaptive Size helper created using concept of responsive_sizer and flutter_screen_util package.
 
-## Features
+## Installation
+<hr/>
+<br/>
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+```yaml
+dependencies:
+  adaptive_sizer:
+    git:
+      url: https://github.com/kishor98100/adaptive_sizer
+```
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+<hr/>
+<br/>
+
+### Import the package
 
 ```dart
-const like = 'sample';
+import 'package:adaptive_sizer/adaptive_sizer.dart';
 ```
 
-## Additional information
+### Wrap MaterialApp with AdaptiveSizer widget
+<hr/>
+<br/>
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+```dart
+AdaptiveSizer( 
+  builder: (context) {
+    return MaterialApp(
+      home: HomePage(),
+    );
+  },
+);
+```
+
+### Widget Size
+<hr/>
+<br/>
+
+```dart
+Container(
+  width: 20.w,   
+  height: 30.5.h     
+)
+```
+
+
+### Text Size
+<hr/>
+<br/>
+
+```dart
+Text(
+  'Adaptive Sizer', 
+  style: TextStyle(fontSize: 15.sp), 
+)
+```

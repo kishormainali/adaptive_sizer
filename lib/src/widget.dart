@@ -10,8 +10,8 @@ import 'package:flutter/material.dart';
 part 'adaptive_helper.dart';
 part 'extension.dart';
 
-class ResponsiveSizer extends StatelessWidget {
-  const ResponsiveSizer({
+class AdaptiveSizer extends StatelessWidget {
+  const AdaptiveSizer({
     super.key,
     required this.builder,
     this.designSize = AdaptiveHelper.defaultSize,
