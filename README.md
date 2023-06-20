@@ -11,7 +11,7 @@ Adaptive Size helper created using concept of responsive_sizer and flutter_scree
 dependencies:
   adaptive_sizer:
     git:
-      url: https://github.com/kishor98100/adaptive_sizer
+      url: https://github.com/kishormainali/adaptive_sizer
 ```
 
 
