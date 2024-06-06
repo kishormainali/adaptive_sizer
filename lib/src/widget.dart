@@ -22,9 +22,11 @@ class AdaptiveSizer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(builder: (context, constraints) {
-      AdaptiveHelper.init(constraints: constraints, designSize: designSize);
-      return builder(context);
-    });
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        AdaptiveHelper.init(constraints: constraints, designSize: designSize);
+        return builder(context);
+      },
+    );
   }
 }

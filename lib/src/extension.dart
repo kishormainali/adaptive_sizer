@@ -29,5 +29,31 @@ extension ResponsiveSizeExt on num {
 }
 
 extension EdgeInsetsX on EdgeInsets {
-  EdgeInsets get r => copyWith(top: top.r, left: left.r, right: right.r, bottom: bottom.r);
+  EdgeInsets get r => copyWith(
+        top: top.r,
+        left: left.r,
+        right: right.r,
+        bottom: bottom.r,
+      );
+
+  EdgeInsets get w => copyWith(
+        top: top.w,
+        left: left.w,
+        right: right.w,
+        bottom: bottom.w,
+      );
+
+  EdgeInsets get h => copyWith(
+        top: top.h,
+        left: left.h,
+        right: right.h,
+        bottom: bottom.h,
+      );
+
+  EdgeInsets get wh => copyWith(
+        top: top.h,
+        left: left.w,
+        right: right.w,
+        bottom: bottom.h,
+      );
 }
